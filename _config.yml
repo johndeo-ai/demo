@@ -10,8 +10,8 @@ title:       '⌘I'
 email:       ''
 description: 'Get&nbsp;Info'
 author:      'Matt&nbsp;Sephton'
-baseurl:     '' # The subpath of your site, e.g. /blog
-url:         'https://blog.gingerbeardman.com' # The base hostname & protocol for your site
+baseurl:     '/demo' # The subpath of your site, e.g. /blog
+url:         'https://johndeo-ai.github.io/' # The base hostname & protocol for your site
 homepage:    'https://www.gingerbeardman.com' # The base hostname & protocol for your site
 twitter:     '@gingerbeardman'
 github:      ''
