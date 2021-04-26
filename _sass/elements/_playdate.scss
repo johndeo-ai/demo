@@ -1,0 +1,39 @@
+body.playdate {
+  background-color: $bg-color-playdate;
+
+  .c-content {
+    overflow-x: unset;
+  }
+
+  .c-post__date,
+  .c-tags a {
+    color: $color-text;
+  }
+
+  a:hover,
+  .c-tags a:hover {
+    color: $color-white;
+    background-color: transparent;
+    transition: none;
+  }
+
+  .c-logo__link span,
+  .c-byline__desc,
+  .c-byline__desc a {
+    color: $color-text;
+  }
+
+  code,
+  .highlighter-rouge {
+    background-color: transparent;
+  }
+
+  .c-header__inner {
+    border-color: $color-text;
+  }
+
+  blockquote {
+    color: $color-darker;
+    border-color: $color-darker;
+  }
+}

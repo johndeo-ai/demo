@@ -1,0 +1,56 @@
+/*------------------------------------*\
+  Components > Pagination
+\*------------------------------------*/
+
+.c-pagination {
+  text-transform: uppercase;
+  transition: $global-transition;
+  margin-top: 25px;
+  display: block;
+
+  &__number {
+    float: left;
+  }
+
+  &__page {
+    text-align: center;
+  }
+
+  @include attention() {
+    color: $color-brand;
+    text-decoration: none;
+  }
+
+  em {
+    font-style: normal;
+    font-weight: bold;
+    text-transform: none;
+  }
+
+  &__text {
+    position: relative;
+    font-size: $font-size-small;
+    letter-spacing: 2px;
+
+    &--prev {
+      left: - $base-spacing-unit;
+    }
+
+    &--next {
+      right: - $base-spacing-unit;
+    }
+
+  }
+
+  &__icon {
+    vertical-align: middle;
+
+    &--prev {
+      left: - half($base-spacing-unit);
+    }
+
+    &--next {
+      right: - half($base-spacing-unit);
+    }
+  }
+}
